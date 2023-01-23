@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(0deg , rgb(253, 143, 103) , rgb(212,99,163));
+    min-height: 110vh;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
+.sub-head {
+    font-size: 15px;
+}
+
+section {
+    width: 40%;
+    margin: auto;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+    border:  0px solid rgb(162, 65, 136);
+    border-width: 2px;
+    padding: 0px;
+
+    display:  block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+
+    font-size: 15px;
+
+}
+
+.inner-links {
+    background-color: rgb(48, 38, 92);
+    padding: 20px;
+    border-radius: 50px;
+    border:  0px solid rgb(162, 65, 136);
+   /* border: 0px solid rgb(82, 128, 251); */
+}
+
+.inner-links:hover {
+    background-color: transparent;
+    border:  0px solid rgb(162, 65, 136);
+    /* border: 0px solid rgb(82, 128, 251); */
+}
+
+
+.links-section {
+    margin-top: 30px;
+}
+
+.sub-sec {
+    margin:  15px 0px;
+}
+
+@media  screen and (max-width : 720px){
+    section {
+        width: 100%;
+    }
+}
